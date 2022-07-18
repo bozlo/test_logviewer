@@ -1,0 +1,4 @@
+{
+	"title": "Master log viwer configuration file - multiple files having a configuration",
+	"files": ["test_configration_single_1.json", "test_configration_single_2.json"]
+}
