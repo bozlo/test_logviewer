@@ -5,6 +5,17 @@
     "title": "HeapInfo2",
     "version": "0.01",
     "graph_type": "plot",
+    "chart_config" : {
+        "name": "HeapInfo2",
+        "y_label": "MB",
+        "series_name_enabled": true,
+        "series_config": "CHART_SERIES_DYNAMIC_EVENTS",
+        "height": 110,
+        "data_processor": "generateChartSeriesDefault",
+        "disable_markers": true,
+        "disable_point_click": true,
+        "channel_tooltip_formatter": true
+    },
     "x_data": [
     {
         "show": false,
