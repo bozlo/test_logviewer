@@ -171,7 +171,7 @@
                     }, {
                         "val":"km_mp_buff_average",
                         "label":"Avg Speed",
-                        "log_ids":["km_mp_buff"],
+                        "log_ids":["km.mp.buff"],
                         "unit": "Mbps",
                         "formatting": {"args": "val", "body": "return Number((val/1E6).toFixed(3))"},
                         "description":"Average measured network speed since the previous log",
@@ -192,7 +192,7 @@
                     }, {
                         "val":"km_mp_buff_lowest_br",
                         "label":"Lowest BR",
-                        "log_ids":"km_mp_buff",
+                        "log_ids":"km.mp.buff",
                         "unit": "Mbps",
                         "formatting": {"args": "val", "body": "return Number((val/1E6).toFixed(3))"},
                         "description":"The lowest available bitrate for selection. [bits-per-second]",
