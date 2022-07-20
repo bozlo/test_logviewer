@@ -54,7 +54,7 @@
         "config" : {
             "line_type": "step_right",
             "show": true,
-            "colorOrder": 1,
+            "colorOrder": 2,
             "adj_minVal": 1,
             "adj_maxVal": 0.5,
             "mapping": {
@@ -84,7 +84,7 @@
         "config" : {
             "line_type": "step_right",
             "show": true,
-            "colorOrder": 1,
+            "colorOrder": 3,
             "adj_minVal": 1,
             "adj_maxVal": 0.5,
             "mapping": {
@@ -114,7 +114,7 @@
         "config" : {
             "line_type": "step_right",
             "show": true,
-            "colorOrder": 1,
+            "colorOrder": 4,
             "adj_minVal": 1,
             "adj_maxVal": 0.5,
             "mapping": {
@@ -144,7 +144,7 @@
         "config" : {
             "line_type": "step_right",
             "show": true,
-            "colorOrder": 1,
+            "colorOrder": 5,
             "adj_minVal": 1,
             "adj_maxVal": 0.5,
             "mapping": {
