@@ -12,7 +12,7 @@
         "disable_point_click": true,
         "channel_tooltip_formatter": true
     },
-    "x_data": [
+    "data": [
     {         
         "val":"km_mp_play_avg_audio_bitrate",
         "label":"Avg Audio Rate",
