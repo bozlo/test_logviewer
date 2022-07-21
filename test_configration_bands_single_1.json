@@ -17,27 +17,27 @@
         "minVal": 0, 
         "maxVal": 9.5,
         "plotBandHeight": 10,
-        "grid_config": [
-            {
-                "step": 2,
-                "scale": 5, 
-                "unit": "Mbps", 
-                "offset": 0, 
-                "position": "left"
-            },
-            {
-                "step": 2,
-                "scale": 50, 
-                "unit": "Kbps", 
-                "offset": 0, 
-                "position": "right"
-            }
-        ],
         "bands": [
             {
                 "label": "Events",
                 "offset": 0,
                 "adj_plotBandHeight": 0.5,
+                "grid_config": [
+                    {
+                        "step": 2,
+                        "scale": 5, 
+                        "unit": "Mbps", 
+                        "offset": 0, 
+                        "position": "left"
+                    },
+                    {
+                        "step": 2,
+                        "scale": 50, 
+                        "unit": "Kbps", 
+                        "offset": 0, 
+                        "position": "right"
+                    }
+                ],                
                 "data": [
                     {
                         "val":"ndk_rebuffer",
@@ -68,6 +68,15 @@
                 "label": "Buffering",
                 "offset": 1,
                 "adj_plotBandHeight": 1,
+                "grid_config": [
+                    {
+                        "step": 2,
+                        "scale": 5, 
+                        "unit": "Mbps", 
+                        "offset": 0, 
+                        "position": "left"
+                    }
+                ],                       
                 "data": [
                     {         
                         "val":"km_mp_buff_sel_bitrate",
@@ -95,6 +104,22 @@
                 "label": "Decoder",
                 "offset": 1,
                 "adj_plotBandHeight": 1,
+                "grid_config": [
+                    {
+                        "step": 2,
+                        "scale": 5, 
+                        "unit": "Mbps", 
+                        "offset": 0, 
+                        "position": "left"
+                    },
+                    {
+                        "step": 2,
+                        "scale": 50, 
+                        "unit": "Kbps", 
+                        "offset": 0, 
+                        "position": "right"
+                    }
+                ],                       
                 "data": [
                     {         
                         "val":"km_mp_play_avg_audio_bitrate",
